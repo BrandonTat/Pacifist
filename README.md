@@ -23,7 +23,7 @@ In addition, this project will include:
 
 This app will consist of a single screen with a game board, game controls, and nav links to my Github, my LinkedIn and the About modal. At the start of the game, the player will spawn at the center of the board. A player will have the opportunity to fly around for a little bit, before gates and enemies begin to spawn.
 
-![wireframe](../images/pacifism_wireframe.png)
+![wireframe](/images/pacifism_wireframe.png)
 
 ### Architecture and Technologies
 
