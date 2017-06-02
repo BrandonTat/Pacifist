@@ -8,14 +8,17 @@ body {
   height: auto;
 }
 
-h1, h2, i, button {
+h1, h2, h3, i {
   text-transform: uppercase;
-  font-family: 'Press Start 2P', cursive;\
+  font-family: 'Press Start 2P', cursive;
   color: white;
 }
 
 button {
   border-radius: 5px;
+  text-transform: uppercase;
+  font-family: 'Press Start 2P', cursive;
+  color: white;
 }
 
 button:hover {

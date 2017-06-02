@@ -60,7 +60,7 @@
 }
 
 #startButton {
-  margin: 100px;
+  margin: 80px;
   border: none;
   font-size: 30px;
 }
@@ -89,4 +89,14 @@
   margin: 100px;
   border: none;
   font-size: 30px;
+}
+
+#title {
+  display: flex;
+  flex-direction: column;
+}
+
+#startModal h3 {
+  top: 10px;
+  font-size: 15px;
 }
