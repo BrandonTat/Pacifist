@@ -5,7 +5,7 @@
 ## Background
 
 [live link][pacifist]
-[pacifist]:https://brandontat.github.io/pacifism_clone/
+[pacifist]: https://brandontat.github.io/pacifism_clone/
 
 Pacifist is 2D game inspired by Geometry Wars - Pacifism mode. The objective in Geometry Wars is to survive as long as possible and score as many points as possible by destroying enemy ships.
 
