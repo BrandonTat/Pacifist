@@ -17,7 +17,7 @@ Pacifism mode is played on a rectangular field, where the player controls a ship
 The rules of the game are simple. Users control the movement of the ship with the mouse pointer. Simply point your mouse where you want the ship to go. A loss results in being touched by a blue square. Players can destroy blue squares by flying over rockets, thereby causing explosions. Your score is directly correlated to how many enemies you kill.
 
 Gameplay can be seen below.
-![](./assets/images/source.gif)
+![](./images/source.gif)
 
 ## Features and implementation
 
