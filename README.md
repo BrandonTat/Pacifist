@@ -1,6 +1,6 @@
 # Pacifist
 
-![welcome](assets/images/pacifist-welcome-screen.png)
+![welcome](images/pacifist-welcome-screen.png)
 
 ## Background
 
