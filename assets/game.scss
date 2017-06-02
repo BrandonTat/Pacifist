@@ -1,6 +1,6 @@
 html {
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 body {
@@ -26,7 +26,10 @@ body {
 }
 
 #header h1 {
+  font-family: 'Press Start 2P', cursive;
   font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
   color: white;
 }
 
@@ -48,8 +51,36 @@ body {
   margin: 10px 0;
 }
 
-#start {
+#startModal {
+  width: 1000px;
+  height: 600px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
   justify-content: center;
+  position: absolute;
+  margin: auto auto;
+  background: rgba(0,0,0, 0.7);
+  z-index: 10;
+}
 
+#startModal h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  margin: 30px;
+}
+
+#startButton {
+  margin: 100px;
+  border: none;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+}
+
+#startButton:hover {
+  cursor: pointer;
 }
