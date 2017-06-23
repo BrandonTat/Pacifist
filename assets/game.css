@@ -4,6 +4,8 @@
   justify-content: center;
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)),
     url("./images/space-background.jpg");
+  height: 100%;
+  width: 100%;
 }
 
 #header {
@@ -48,6 +50,7 @@
   align-self: center;
   justify-content: center;
   position: absolute;
+  /*position: relative;*/
   margin: auto auto;
   z-index: 10;
 }
