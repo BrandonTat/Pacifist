@@ -4,8 +4,8 @@
   justify-content: center;
   background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.5)),
     url("./images/space-background.jpg");
-  height: 100%;
-  width: 100%;
+  height: 100vh;
+  width: 100vw;
 }
 
 #header {
@@ -42,17 +42,16 @@
 }
 
 #startModal {
-  width: 1000px;
-  height: 600px;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  align-self: center;
-  justify-content: center;
-  position: absolute;
-  /*position: relative;*/
-  margin: auto auto;
+  position: fixed;
   z-index: 10;
+  justify-content: center;
+  align-items: center;
 }
 
 #startModal h2 {
@@ -76,7 +75,7 @@
   align-items: center;
   align-self: center;
   justify-content: center;
-  position: absolute;
+  /*position: absolute;*/
   margin: auto auto;
   z-index: 9;
 }
@@ -92,11 +91,6 @@
   margin: 100px;
   border: none;
   font-size: 30px;
-}
-
-#title {
-  display: flex;
-  flex-direction: column;
 }
 
 #startModal h3 {
