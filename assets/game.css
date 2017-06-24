@@ -23,7 +23,13 @@
 #header {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   width: 100%;
+}
+
+#links {
+  display: flex;
+  flex-direction: row;
 }
 
 #linkedIn {
@@ -34,15 +40,11 @@
   padding: 0 20px;
 }
 
-#score {
-  font-size: 50px;
-  color: white;
-}
-
-#header h1 {
-  font-size: 50px;
+#header h2 {
+  font-size: 30px;
   letter-spacing: 2px;
   color: white;
+  padding: 5px;
 }
 
 #header i {
