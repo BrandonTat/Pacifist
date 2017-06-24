@@ -10,12 +10,12 @@
   width: 100vw;
 }
 
-#1-10 {
+#upper {
   height: 10%;
   width: 100vw;
 }
 
-#9-10 {
+#lower {
   height: 90%;
   width: 100vw;
 }
@@ -60,7 +60,9 @@
 #myCanvas {
   height: inherit;
   width: inherit;
-  background: black;
+  /*height: 800;
+  width: 950;*/
+  /*background: white;*/
   align-self: center;
   margin: 10px 0;
 }
