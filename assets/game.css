@@ -76,10 +76,22 @@
   margin: 30px;
 }
 
+#startModal span h3 {
+  top: 10px;
+  font-size: 15px;
+}
+
 #startButton {
   margin: 80px;
-  border: none;
   font-size: 30px;
+}
+
+#instructions {
+  display: flex;
+  flex-direction: column;
+  height: 15%;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #gameOverModal {
@@ -108,7 +120,20 @@
   font-size: 30px;
 }
 
-#startModal h3 {
-  top: 10px;
-  font-size: 15px;
+.flash {
+	color: #66ccff;
+	-webkit-animation-name: flashanim; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: .5s; /* Chrome, Safari, Opera */
+    -webkit-animation-timing: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+     animation-name: flashanim;
+    animation-duration: .5s;
+    animation-timing: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+
+@keyframes flashanim {
+    0% {	color: #66ccff;}
+    100% {	color: #178588;}

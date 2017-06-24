@@ -16,10 +16,10 @@ h1, h2, h3, i {
 }
 
 button {
-  border-radius: 5px;
+  border: none;
+  background-color: transparent;
   text-transform: uppercase;
   font-family: 'Press Start 2P', cursive;
-  color: white;
 }
 
 button:hover {
