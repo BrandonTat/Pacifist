@@ -18,15 +18,15 @@
     <div id="gameScreen">
       <div id="1-10">
         <div id="header" >
-          <a href="https://www.linkedin.com/in/brandon-tat-300815120/">
+          <a id="linkedIn"    href="https://www.linkedin.com/in/brandon-tat-300815120/">
             <i class="fa fa-linkedin fa-3x" aria-hidden="true"></i>
           </a>
 
-          <h1>Pacifist</h1>
-
-          <a href="https://github.com/BrandonTat/pacifism_clone">
+          <a id="gitHub" href="https://github.com/BrandonTat/pacifism_clone">
             <i class="fa fa-github fa-3x" aria-hidden="true"></i>
           </a>
+
+          <h1 id="score"></h1>
         </div>
       </div>
 
@@ -35,16 +35,20 @@
           <canvas id="myCanvas"></canvas>
 
           <div id="startModal">
-            <h2>Insert Coin</h2>
-            <h2>Press button to play</h2>
+            <h1>Pacifist</h1>
             <button id="startButton" class="flash" type="submit">Play Game</button>
-            <h2>1/1 Credit</h2>
 
             <span id="instructions">
               <h3>Use the mouse to move</h3>
               <h3>Avoid the squares</h3>
               <h3>Pick up bombs, to cause explosions</h3>
             </span>
+          </div>
+
+          <div id="gameOverModal">
+            <h2>Game Over</h2>
+            <h2 id="score"></h2>
+            <button id="playAgain" class="flash" type="submit">Play Again?</button>
           </div>
         </div>
       </div>
