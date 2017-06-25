@@ -58,8 +58,8 @@
 }
 
 #myCanvas {
-  /*height: inherit;
-  width: inherit;*/
+  /*height: 1000;
+  width: 800;*/
   height: 100%;
   width: 100%;
   /*background: white;*/
