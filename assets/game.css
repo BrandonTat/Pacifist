@@ -53,16 +53,14 @@
 }
 
 #board {
-  height: 95%;
+  height: 100%;
   width: 100%;
 }
 
 #myCanvas {
-  /*height: 1000;
-  width: 800;*/
-  height: 100%;
-  width: 100%;
-  /*background: white;*/
+  /*height: 100%;*/
+  /*width: 100%;*/
+  background: black;
   align-self: center;
   margin: 10px 0;
 }
